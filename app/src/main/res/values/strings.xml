@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Bus</string>
+    <string name="routine_name">x路</string>
+
+
+    <string name="title_section1">站点</string>
+    <string name="title_section2">线路</string>
+    <string name="title_section3">换乘</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="query">查询</string>
+    <string name="routine_id">输入线路名，如：8路</string>
+    <string name="stop_id">输入站点名,如：天津站</string>
+    <string name="end">输入终点站,如：八里台</string>
+    <string name="start">输入终点站,如：天津站</string>
+    <string name="url_server">https://php-csorder.rhcloud.com/upgrade.xml</string>
+
+
+</resources>

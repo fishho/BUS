@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/direction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="上行"
+        android:gravity="center"
+        android:autoText="false"
+        android:textSize="18dp"
+        android:textIsSelectable="true"
+        android:textStyle="bold"
+        style="@android:style/TextAppearance.Holo.Widget.TextView"
+        android:textAlignment="center"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/textview"
+        android:layout_toEndOf="@+id/textview"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp" />
+
+
+    <Button
+        android:id="@+id/switcher"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="反向"
+        android:singleLine="false"
+        style="@style/Base.TextAppearance.AppCompat.Button"
+        android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="往"
+            android:id="@+id/textview"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:textColor="#ff1c9a8d"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/remark" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/line_view"
+        android:divider="#ff2a907f"
+        android:dividerHeight="1sp">
+
+    </ListView>
+
+
+
+</LinearLayout>
