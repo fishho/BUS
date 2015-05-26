@@ -14,7 +14,7 @@
     <string name="routine_id">输入线路名，如：8路</string>
     <string name="stop_id">输入站点名,如：天津站</string>
     <string name="end">输入终点站,如：八里台</string>
-    <string name="start">输入终点站,如：天津站</string>
+    <string name="start">输入起始站,如：天津站</string>
     <string name="url_server">https://php-csorder.rhcloud.com/upgrade.xml</string>
 
 
