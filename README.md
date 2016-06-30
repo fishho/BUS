@@ -1,4 +1,4 @@
-## busCome
+## BUS
 安卓的公交查询APP，API是android4.1的，数据库是SQLite
 
 ### 功能
